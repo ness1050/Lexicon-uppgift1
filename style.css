@@ -256,30 +256,40 @@ main {
 }
 
 .input-wrapper {
+  position: relative;
   background-color: white;
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
 
-  h3 {
+.input-wrapper h3 {
   font-weight: bold;
-  }
+}
 
-  input {
-    background-color: white;
-    border-radius: 5rem;
-    width: 25%;
-    color: grey;
-    text-align: center;
-    padding-right: 50px;
-  }
+.input-wrapper input {
+  background-color: white;
+  border-radius: 5rem;
+  height: 28px;
+  width: 20%;
+  color: grey;
+  text-align: center;
+  padding-right: 50px; /* to make space for the button inside */
+}
 
-  button {
-    position: relative;
-    background-color: green;
-    cursor: pointer;
-  }
+.input-wrapper button {
+  position: absolute;
+  top: 50%;
+  width: 5%;
+  right: calc(50% - 9.8% + 4px); /* positions the button inside the input */
+  background-color: green;
+  margin-top: 1%;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9em;
+  padding: 0;
 }
 
 
