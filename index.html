@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/AllStyle/header.css">
+    <link rel="stylesheet" href="/AllStyle/mediaQuery.css">
     <title>Planned Planthood</title>
   </head>
   <body>
     <header class="header-container">
     
-      <div class="right-side">
-        <img src="/Assets/images/logo.svg" alt="logo-mark" class="logo">
+      <section class="left-side">
+        <img src="/Assets/images/logo.svg" alt="An image of logo of website green color">
         <h1>PLANNED <br> PLANTHOOD</h1>
-      </div>
-      <ul>
-        <a href="#">HEM</a>
-        <a href="#">HISTORIK</a>
-        <a href="#">TIPS</a>
-        <a href="#">KONTAKT</a>
+      </section>
+     <nav class="right-side">
+       <ul class="nav-buttons">
+        <li><a href="#">HEM</a></li>
+        <li><a href="#">HISTORIK</a></li>
+        <li><a href="#">TIPS</a></li>
+        <li><a href="#">KONTAKT</a></li>
       </ul>
+     </nav>
     </header>
     <main class="main-container">
       <section class="first-block">
@@ -45,24 +49,19 @@
           </ul>
         </section>
       </section>
+      
       <form class="input-wrapper" >
-      <h3>Anmäl dig till vårt <br> nyhetsbrev så du inte <br> missar en utsådd!</h3>
-      <label for="">
-        <input type="text" placeholder="email@domain.com">
-      </label>
-      <div class="button">
-        <button onclick="none"> Search</button>
-      </div>
-      <img src="/Assets/images/icon-planting.svg" alt="plnating-image">
-    </form>
-    
-
+        <h3>Anmäl dig till vårt <br> nyhetsbrev så du inte <br> missar en utsådd!</h3>
+        <input type="text" placeholder="email@domain.com" name="searchbar" id="searchbar">
+        <button> Search</button>
+        <img src="/Assets/images/icon-planting.svg" alt="planating-image-svg">
+      </form> 
 
       <section class="grid-4by4">
 
       </section>
     </main>
-    <footer >
+    <footer class="footer">
   
       <section class="left-footer">
         <div class="brand">
@@ -77,6 +76,7 @@
         </P>
         <div class="contact">
           <a href="#">Telefon: 020-123456</a>
+
           <br>
           <a href="#">info@plannedplant.com</a>
         </div>
