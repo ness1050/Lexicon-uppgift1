@@ -7,25 +7,24 @@
     <title>Planned Planthood</title>
   </head>
   <body>
-    <header class="header">
-         <nav>
-          <div class="logo-container">
-            <img src="/Assets/images/logo.svg" alt="logo" class="logo">
-          </div>
-          <h2>PLANNED <br> PLANTHOOD</h2>
-          <ul>
-              <a href="#">HEM</a>
-              <a href="#">HISTORIK</a>
-              <a href="#">TIPS</a>
-              <a href="#">KONTAKT</a>
-          </ul>
-         </nav>
+    <header class="header-container">
+    
+      <div class="right-side">
+        <img src="/Assets/images/logo.svg" alt="logo-mark" class="logo">
+        <h1>PLANNED <br> PLANTHOOD</h1>
+      </div>
+      <ul>
+        <a href="#">HEM</a>
+        <a href="#">HISTORIK</a>
+        <a href="#">TIPS</a>
+        <a href="#">KONTAKT</a>
+      </ul>
     </header>
     <main class="main-container">
-      <div class="first-block">
+      <section class="first-block">
         <h2>Uppskattade växter</h2>
         <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis ipsum.</h3>
-        <div class="container">
+        <section class="container">
           <ul class="cards" role="list" max-col-count="4">
             <li class="item1"><img src="/image/1.jpg" alt="asdasd"></li>
             <li class="item2">
@@ -43,21 +42,31 @@
                 <img src="/image/vattna.webp" alt="asdasd">
               </div>
             </li>
-  
           </ul>
-        </div>
+        </section>
+      </section>
+      <form class="input-wrapper" >
+      <h3>Anmäl dig till vårt <br> nyhetsbrev så du inte <br> missar en utsådd!</h3>
+      <label for="">
+        <input type="text" placeholder="email@domain.com">
+      </label>
+      <div class="button">
+        <button onclick="none"> Search</button>
       </div>
-        <form class="input-wrapper" >
-          <h3>Anmäl dig till vårt <br> nyhetsbrev så du inte <br> missar en utsådd!</h3>
-          <input type="text" placeholder="email@domain.com">
-          <button onclick="none"> Search</button>
-        </form>
+      <img src="/Assets/images/icon-planting.svg" alt="plnating-image">
+    </form>
+    
+
+
+      <section class="grid-4by4">
+
+      </section>
     </main>
     <footer >
-     
-      <div class="left-footer">
+  
+      <section class="left-footer">
         <div class="brand">
-           <img src="/Assets/images/logo.svg" alt="logo" class="brand">
+          <img src="/Assets/images/logo.svg" alt="logo" class="brand">
           <h2>PLANNED <br>PLANTHOOD</h2>
         </div>
         <P>
@@ -71,7 +80,7 @@
           <br>
           <a href="#">info@plannedplant.com</a>
         </div>
-      </div>
+      </section>
     
       <ul class="footer-nav">
         <li>Hem</li>
