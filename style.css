@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   font: inherit;
+  box-sizing: border-box;
 }
 
 /* dark mode user-agent-styles */

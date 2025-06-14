@@ -1,58 +1,55 @@
-
-
-.header-container {
+header {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap; /* makes elements stack on small screens */
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  width: 300px;
-  height: 70px;
-  padding: 0%;
-  gap: 10rem;
+  padding: 1rem 7rem;
+  width: 100%;
+  box-sizing: border-box;
+}
 
-  nav {
-    height: auto;
-    width: 100%;
-  }
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.left-side img {
+  height: 50px;
+  width: auto;
+}
+
+.left-side h1 {
+  color: rgba(23, 116, 88, 0.965);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .right-side ul {
-    justify-content: left;
-    list-style-type: none;
-    width: 100px;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    height: auto;
-    max-width: 80%;
-    font-weight: bold;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
 }
 
- a:hover, a:active {
-        color: white;
-        background-color: #136813;
-    }
-
-
-.left-side {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20rem 20rem;
-
-    img {
-        height: 70px;
-    }
-
-    h1 {
-
-    color: rgba(35, 130, 102, 0.965);
-    font-size: 1.2em;
-    font-weight: bold;
-    }
+.right-side ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
 
-
-
-
-
+.right-side ul li a:hover,
+.right-side ul li a:active {
+  color: white;
+  background-color: #209b20;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
