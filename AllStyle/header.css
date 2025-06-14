@@ -1,9 +1,9 @@
 header {
   display: flex;
   flex-wrap: wrap; /* makes elements stack on small screens */
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 1rem 7rem;
+  padding: 1rem 8rem;
   width: 100%;
   box-sizing: border-box;
 }
@@ -35,14 +35,15 @@ nav {
 .right-side ul {
   list-style: none;
   display: flex;
+  font-size: 1.5rem;
   gap: 1.5rem;
-  padding: 0;
+  padding: 1rem;
   margin: 0;
 }
 
 .right-side ul li a {
   text-decoration: none;
-  color: #000;
+  color: #2e9165;
   font-weight: bold;
 }
 
