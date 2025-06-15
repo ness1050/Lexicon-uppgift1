@@ -1,13 +1,41 @@
 
 
-@media only screen and ( max-width:600px){
-    
+@media only screen and (max-width: 600px) {
+
+    body {
+        display: block;
+        align-items: center;
+    }
+   
     header {
-        background-color: rgb(226, 220, 220);
+        background-color: red;
         align-items: center;
         display: block;
-        justify-content: flex-start;
     }
 
+    main {
+        display: block;
+        align-items: center;
+        margin: 0;
+        width: 100%;
 
+        .block3 ul {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    
+      main {
+        display: block;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+
+        .block3 ul {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }
