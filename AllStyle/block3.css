@@ -31,8 +31,42 @@
     flex-direction: column;
 }
 
+.card {
+    background-color: white;
+    display: grid;
+    padding: 10px;
+    width: 100%;
+    gap: 1rem;
+    align-items: start;
+
+    img {
+        width: 100%;
+    }
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    #first {
+        background-color: red;
+        border-radius: 10rem;
+        padding: 0.3rem 0.3rem;
+    }
+
+    #second {
+        background-color: rgb(69, 177, 42);
+        border-radius: 10rem;
+        padding: 0.4rem 0.4rem;
+    }
+}
+
 
 .block3 ul li {
+    display: grid;
+    flex-wrap: wrap;
     list-style: none;
     color: black;
     background-color: rgb(237, 243, 240);
@@ -49,15 +83,6 @@
     }
 
 }
-
-.small-tag-info {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-
-    
-
 
 
 .block3 h2 {
@@ -81,3 +106,22 @@
     grid-column: 2;
     grid-row: 1;
 }
+
+.Avtar-icon  {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 100%;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem;
+
+    img {
+        width: 30%;
+    }
+}
+
+/* styling the icons here */
