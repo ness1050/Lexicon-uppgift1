@@ -47,19 +47,65 @@
 .sub-header {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: start;
     flex-wrap: wrap;
     gap: 1rem;
 
+    h3 {
+        font-size: 18px;
+    }
     #first {
-        background-color: red;
+        
+        background-color: rgba(255, 0, 0, 0.717);
         border-radius: 10rem;
-        padding: 0.3rem 0.3rem;
+        padding: 0.5rem 0.5rem;
     }
 
     #second {
         background-color: rgb(69, 177, 42);
         border-radius: 10rem;
         padding: 0.4rem 0.4rem;
+    }
+
+    #third {
+        background-color: rgba(95, 64, 208, 0.609);
+        border-radius: 10rem;
+        padding: 0.3rem 0.3rem;
+    }
+
+   
+    
+    #fourth {
+        background-color: rgb(0, 200, 255);
+        border-radius: 10rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    #fifth {
+        color: rgb(26, 28, 26);
+        background-color: rgb(143, 133, 220);
+        border-radius: 10rem;
+        padding: 0.3rem 0.3rem;
+    }
+
+    #sixth {
+        background-color: rgb(142, 183, 54);
+        border-radius: 10rem;
+        padding: 0.3rem 0.3rem;
+    }
+
+    #seven {
+        color: rgb(26, 28, 26);
+        background-color: rgb(121, 220, 194);
+        border-radius: 10rem;
+        padding: 0.3rem 0.3rem;
+    }
+
+    #eight {
+        background-color: rgb(16, 174, 127);
+        border-radius: 10rem;
+        padding: 0.3rem 0.3rem;
     }
 }
 
