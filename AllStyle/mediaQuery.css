@@ -44,6 +44,12 @@
                 margin-top: 10px;
             }
         }
+
+        .Avtar-icon {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
     }
 }
 
@@ -79,5 +85,6 @@
         .logo {
             margin-top: 10px;
         }
+
     }
 }
