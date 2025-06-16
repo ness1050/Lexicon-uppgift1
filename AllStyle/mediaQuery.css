@@ -55,13 +55,20 @@
 
 
 @media screen and (min-width: 600px) and (max-width: 950px) {
-    
+
+       header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+  
       main {
         display: block;
         align-items: center;
         margin: 0;
         width: 100%;
-
+        
+       
         .block3 ul {
             grid-template-columns: 1fr 1fr;
         }
@@ -84,6 +91,13 @@
 
         .logo {
             margin-top: 10px;
+        }
+
+        
+        .Avtar-icon {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
         }
 
     }
