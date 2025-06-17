@@ -1,16 +1,25 @@
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 630px) {
 
-    body {
-        display: block;
-        align-items: center;
-    }
+  
    
     header {
-        background-color: red;
+        width: 100%;
+        display: flex;
         align-items: center;
-        display: block;
+        justify-content: center;
+
+    }
+
+    footer {
+    
+        width: 100%;
+        display: flex;
+
+        .footer-nav {
+            display: none;
+        }
     }
 
     main {
@@ -20,7 +29,17 @@
         width: 100%;
 
         .block3 ul {
+            width: 100%;
             grid-template-columns: 1fr;
+            margin: 0;
+        }
+
+        .block3 {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            width: 100%;
+
         }
 
         
@@ -50,6 +69,28 @@
             flex-direction: row;
             justify-content: flex-start;
         }
+
+        .info-data {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .info-data figure {
+            width: 150px;
+            height: 150px;
+            padding: 2.5rem;
+        }
+
+        .info-data h3 {
+            font-size: 0.7rem;
+            transform: translateY(40%) translateX(40%);
+        }
+
+        
     }
 }
 
@@ -98,6 +139,27 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
+        }
+
+        
+        .info-data {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .info-data figure {
+            width: 150px;
+            height: 150px;
+            padding: 2.5rem;
+        }
+
+        .info-data h3 {
+            font-size: 0.7rem;
+            transform: translateY(40%) translateX(90%);
         }
 
     }

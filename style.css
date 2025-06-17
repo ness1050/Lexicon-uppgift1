@@ -235,6 +235,7 @@ main {
 }
 
 .info-data h3 {
+  font-size: 0.5rem;
   position: absolute;
   display: flex;
   align-items: center;
@@ -243,7 +244,6 @@ main {
   border: 2px solid red;
   border-radius: 50px;
   justify-content: center;
-  width:20%;
   padding: 5px 5px;
   font-size: 1.2em;
   transform: translateY(40%) translateX(120%);
@@ -254,9 +254,11 @@ main {
 footer {
   max-width: 100%;
   height: auto;
-  background-color: rgba(40, 157, 122, 0.965);
+  background-color: hsl(110, 63%, 32%);
   padding: 1rem;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   color: white;
   width: 100%;
   justify-content:center;
@@ -265,6 +267,7 @@ footer {
   img {
     width: 50px;
   }
+
 
   ul {
     padding: 1rem 7rem;
@@ -275,23 +278,61 @@ footer {
       align-items: center;
     }
   }
+
+  a {
+    color: white;
+  }
+  
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  img {
+    width: 10%;
+  }
+
+  #phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  #email {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.2rem;
+  }
 }
 
 .left-footer {
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  min-width: 350px;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
   padding: 1rem 3rem;
+  gap: 0.5rem;
+  
 }
 
 .left-footer .brand {
   display: flex;
-  flex-direction: initial;
- 
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
+
+#mail-icon {
+  background-image: url("/Assets/images/icon-phone.svg");
+}
+
+
 
 
 
