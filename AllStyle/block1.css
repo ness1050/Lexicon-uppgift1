@@ -16,6 +16,65 @@
 }
 
 .container {
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  height: auto;
+}
+
+.item1 {
+  display: flex;
+  justify-content: stretch;
+  height: 100%;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.vertical-stack {
+  display: flex;
+  flex-direction: row;
+  grid-column: 2;
+  grid-row: 1;
+
+  li {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+
+.item4 {
+  display: flex;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.item5 {
+  display: flex;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.item6 {
+  display: flex;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+
+
+
+
+/* 
+.container {
   background-color: rgb(246, 241, 241);
   display: grid;
   margin: auto;
@@ -62,4 +121,4 @@
   }
 
   
-}
+}*/
