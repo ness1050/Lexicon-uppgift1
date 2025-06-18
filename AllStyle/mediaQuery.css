@@ -116,9 +116,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 950px) {
 
-     
     
-
     header {
         max-width: 100vh;
         display: flex;
@@ -133,7 +131,7 @@
 
         #Hamburgare_svg { 
             display: block;
-            background-color: rgb(26, 136, 99);
+            background-color: hsl(169, 85%, 26%);
         }
 
         #Hamburgare_svg:hover {
@@ -201,6 +199,22 @@
             font-size: 0.7rem;
             transform: translateY(40%) translateX(90%);
         }
+
+        .first-block {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+      
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto auto auto;
+        }
+
+       
 
     }
 }

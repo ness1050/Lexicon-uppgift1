@@ -218,7 +218,7 @@ main {
 
 .info-data figure {
   margin: 1rem;
-  background-color: green;
+  background-color: hsl(169, 86%, 28%); 
   padding: 2rem;
   border-radius: 300px;
   height: 120px;
@@ -239,9 +239,8 @@ main {
   position: absolute;
   display: flex;
   align-items: center;
-  background-color: rgb(62, 187, 145);
+  background-color: hsl(169, 86%, 28%);
   color: white;
-  border: 2px solid red;
   border-radius: 50px;
   justify-content: center;
   padding: 5px 5px;
@@ -254,7 +253,7 @@ main {
 footer {
   max-width: 100%;
   height: auto;
-  background-color: hsl(110, 63%, 32%);
+  background-color: hsl(169, 86%, 28%);
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
