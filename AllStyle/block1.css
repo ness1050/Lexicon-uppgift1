@@ -50,6 +50,12 @@
   }
 }
 
+.first-block ul  {
+  width: 100%;
+  height: auto;
+  
+
+}
 
 .item4 {
   display: flex;
