@@ -1,8 +1,9 @@
 header {
-  background: white;
+  display: flex;
+  background-color: white;
   align-items: center;
+  justify-content: center;
   width: 100%;
-  max-width: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -12,7 +13,6 @@ header {
 }
 
 .logo_svg:first-child {
-  width: 100%;
   display: flex;
   transform: translateX(-30%);
   flex-direction: row;
