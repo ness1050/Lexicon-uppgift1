@@ -7,9 +7,9 @@ The goal of the assignment is to build a simple, visually appealing, and semanti
 # Structure
 
 Accessibility has been considered throughout the project with reference to WCAG 2.1 AA standards. Key improvements and practices include:
-*   Use of semantic HTML (<header>, <nav>, <section>, <form>, <h3>, <input>, <label>, <button>, etc.)
+*   Use of semantic HTML (header, nav, section, form, h3, input, label, button, etc.)
 * All form controls are
-    * Properly associated with visible or screen-reader-only <label> elements
+    * Properly associated with visible or screen-reader-only label elements
     * Or use accessible attributes like aria-label
 * Placeholder text is used in addition to, not instead of, labels
 * Alternative text (alt) added to images
@@ -32,14 +32,3 @@ Accessibility has been considered throughout the project with reference to WCAG 
 * Gitbash alternative: VSCode terminal
 
 
-Lexicon-uppgift1/
-├── index.html
-├── styles.css
-│   
-├── assets/
-│       └── icon-planting.svg
-│       
-│── images/
-│       └── GridImages/AvtarIcon/GalleriImages
-│  
-└── README.md
